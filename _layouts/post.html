@@ -10,10 +10,10 @@ layout: default
   </div>
 
   <div class="date">
-    Written on {{ page.date | date: "%B %e, %Y" }}
+    Escrito el {{ page.date | date: "%e de %B, %Y" }}
   </div>
   <div class="tags">
-    Tags: 
+    Etiquetas:
     {% if page.tags %}
     {% for tag in page.tags %}
       <a href="{{ site.baseurl }}{{ site.tag_page }}#{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
@@ -21,7 +21,7 @@ layout: default
     {% endif %}
   </div>
   <div class="categories">
-    Filed under
+    Categorías
     {% if page.categories %}
     {% for tag in page.categories %}
       <a href="{{ site.baseurl }}{{ site.category_page }}#{{ tag | slugify }}" class="post-category">{{ tag }}</a>
