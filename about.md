@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: ¿Qué es el Proyecto Solferino?
 permalink: /about/
 ---
 
-SOLFE
+Aquí podemos escribir una descripción sobre el proyecto.
 
 ---
